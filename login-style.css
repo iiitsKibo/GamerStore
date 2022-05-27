@@ -1,0 +1,62 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url(img/teahub.io-gamer-iphone-wallpaper.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+form {
+  position: relative;
+  font-weight: 700;
+  z-index: 1;
+  background: #fff;
+  max-width: 360px;
+  margin: 0 auto 2px;
+  padding: 45px;
+}
+
+.login {
+  width: 360px;
+  padding: 10% 0 0;
+  margin: auto;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  max-width: 40rem;
+  border: 1rem solid #f3f3f3;
+
+  text-align: center;
+}
+
+.form input {
+  font-family: "Poppins", sans-serif;
+  outline: 1;
+  background: #f3f3f3;
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem;
+  box-sizing: border-box;
+}
+
+.wannahome {
+  font-size: 10px;
+}
+
+.form .btnsubmit {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #a8a8cf;
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 1.2rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+#error {
+  color: red;
+}

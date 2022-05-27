@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/controllericon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2e806b30bd.js" crossorigin="anonymous"></script>
+    <link href="catalogue-style.css" type="text/css" rel="stylesheet">
+
+
+    <title>Cart</title>
+</head>
+
+<body>
+    <header>
+        <nav class=" navbar slide-right" style="font-size: 2rem;">
+            <ul>
+                <li class="navbar-logo">
+                    <div><img id="logo" src="img/controllericon.png" alt="">
+                        <p style=" margin: 0;" id="xsquaded">X<sup>2</sup></p>
+                    </div>
+                </li>
+                <li class="navbar-toggle "><i class="fas fa-bars fa-2x color-trans"></i></li>
+                <li class="navbar-links "><a href="index.html" class=""><i class="fas fa-home"></i></a></li>
+                <li class="navbar-links "><a href="about_us.html" class="">About us</a></li>
+                <li class="navbar-links "><a href="meet-the-team.html" class=""><i
+                            class="fa-solid fa-people-group"></i></a></li>
+                <li class="navbar-links"><a href="login.html"><i class="fa-solid fa-user"></i></a></li>
+                <li class="navbar-links"><a href="catalogue.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1 class="shop-title">Shopping Cart</h1>
+
+        <table class="table table-responsive cart-table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Product</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Price</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <thead class="thead-dark deliverSection">
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                        <th scope="col">Delivery Charge</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tr class="deliverSection">
+                    <td></td>
+                    <td></td>
+                    <td id="deliveryFee"></td>
+                    <td></td>
+                </tr>
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                        <th scope="col">Discount coupon</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tr id="discountRow">
+                    <td></td>
+                    <td id="discount"><button id="couponbtn">Apply coupon</button></td>
+                    <td><input id="couponinput" type="text"></td>
+                    <td>
+                        <div id="error"></div>
+                    </td>
+                </tr>
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                        <th scope="col">Vat</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td id="vat"></td>
+                    <td></td>
+                </tr>
+
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                        <th scope="col">Total</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td id="total"></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="check-radio">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    Collect
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                <label class="form-check-label" for="flexRadioDefault2">
+                    Delivery
+                </label>
+            </div>
+        </div>
+
+        <div class="checkout-con">
+            <a id="checkout">Confirm Order</a>
+        </div>
+
+    </main>
+    <div class="coypright color-trans">
+        Copyright@All rights are reserved to Raqeeb Adams
+    </div>
+</body>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script src="cart.js"></script>
+
+</html>
