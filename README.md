@@ -30,7 +30,7 @@ As a user you allowed to add items to cart and view your current total
 ![image](https://user-images.githubusercontent.com/48985355/170942337-6a68412a-3825-4fb1-9e6b-86ab4e99dcb9.png)
 
 
-![image](https://user-images.githubusercontent.com/48985355/170942429-0c5b0b7d-4883-4376-a09d-39e57c05ebbc.png
+![image](https://user-images.githubusercontent.com/48985355/170942429-0c5b0b7d-4883-4376-a09d-39e57c05ebbc.png)
 
 
 As a user you allowed to view items added to cart 
